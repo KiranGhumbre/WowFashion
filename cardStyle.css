@@ -12,7 +12,7 @@
                 height: 65%;
             }
 
-           @media (max-width:780px) {
+           @media (min-width:600px) {
                 .all-products{
                     grid-template-columns: repeat(2,1fr);
                 }
