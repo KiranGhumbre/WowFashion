@@ -1,0 +1,126 @@
+.main{
+    background-color: rgb(247, 244, 173);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+.searchbar{
+    display: flex;  
+    height: 75%;
+    width:35% ;
+    margin-top: 10px;
+}
+
+.form-control{
+    width: 100% !important; 
+    border-radius: 0 0 0 10px !important;  
+}
+
+#button-addon1{
+    width: 25%;
+    border-radius: 0 10px 0 0;
+    color: white;
+    background-color: rgb(250, 65, 18);
+}
+
+.login{
+    display: flex;
+    justify-content:center;  
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: none !important;
+    color: rgb(250, 65, 18) !important;
+}
+#login1{
+    background-color: rgb(250, 65, 18) !important;
+    color: white !important;
+    margin-top: 13px;
+}
+
+.cart-logo{
+    font-size: 2rem;
+}
+.navigation{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    margin-top: 10px;
+}
+
+@media (max-width:750px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .searchbar{
+        width: 95%;
+        margin: 10px;
+    }
+    .login{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10px;
+    }
+    .cart-and-login{
+        flex-direction: column;
+    }
+    .footer-box{
+        flex-direction: column;
+        border-bottom: 1px solid rgb(250, 65, 18) ;
+    }
+
+}
+
+
+.footer-box{
+    display: flex;
+    background-color: rgb(247, 244, 173);
+    justify-content: space-evenly;
+    margin-top: 30px;
+    border-bottom: 1.7px solid rgb(250, 65, 18) ;
+}
+
+.footerElem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(250, 65, 18);
+    
+}
+
+.footerElem>a{
+    text-decoration: none;
+    color: rgb(250, 65, 18);
+    font-size: 0.8rem;
+}
+
+.copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 244, 173);
+  color: rgb(250, 65, 18);
+  font-size: 0.8rem;
+}
+
+.nav-item:hover {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid orangered;
+
+
+}
+.nav-link:hover{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid orangered;
+}
+
+

@@ -1,0 +1,51 @@
+
+body{
+   box-sizing: border-box;
+}
+
+
+.cover-page{
+    height:82vh ;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1603252110481-7ba873bf42ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#big-logo{
+    height: 30vh;
+}
+h1{
+    text-align: center;
+    color:rgb(250, 65, 18) ;
+}
+
+.my-block{
+    display: flex !important;
+    justify-content: space-evenly !important;
+    
+}
+
+.card{
+    height: 70vh;
+}
+.product-img{
+    height: 65%;
+}
+
+@media (max-width:780px) {
+    #big-logo{
+        width: 90vw;
+    }
+}
+.nav-item:hover {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid orangered;
+
+
+}
+

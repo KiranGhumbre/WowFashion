@@ -1,0 +1,31 @@
+ .all-products{
+                display: grid;
+                grid-template-columns:repeat(4,1fr) ;
+                gap: 20px;
+                
+            }
+            
+            .card{
+                height: 70vh;
+            }
+            .card-img-top{
+                height: 65%;
+            }
+
+           @media (max-width:780px) {
+                .all-products{
+                    grid-template-columns: repeat(2,1fr);
+                }
+                
+            }
+            @media (max-width:540px){
+                 .all-products{
+                    grid-template-columns: repeat(2,1fr);
+                }
+                .card{
+                    height: 60vh;
+                }
+                .card-img-top{
+                height: 55%;
+            }
+            }
