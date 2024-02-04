@@ -16,7 +16,7 @@ fetch('./Categories/wDresses.html')
                  document.getElementById('women-dresses').innerHTML = data;
              });
 
-fetch('./Categories/mshirts.html')
+fetch('./Categories/mShirts.html')
              .then(response => response.text())
              .then(data => {
                  document.getElementById('men-shirts').innerHTML = data;
